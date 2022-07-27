@@ -1,31 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-:root{
-  --azulclaro: #48D6ED;
-  --azuloscuro: #337AB7;
-  --azulnegro: #303342;
-  --negro: #333333;
-  --negro2: #000;
-  --gris: #B2B3B3;
-  --fondo: #FFFEFC;
-  --verdeazul: #157A8A;
-  --Magenta: #9C2759;
-  --blanco: #fff;
-  --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
+
+:root {
+    --azulclaro: #48D6ED;
+    --azuloscuro: #337AB7;
+    --azulnegro: #303342;
+    --negro: #333333;
+    --negro2: #000;
+    --gris: #B2B3B3;
+    --fondo: #FFFEFC;
+    --verdeazul: #157A8A;
+    --Magenta: #9C2759;
+    --blanco: #fff;
+    --degradado: linear-gradient(49.54deg, #337AB7 2.89%, #0B3860 80.34%);
 }
- 
-*{
-    margin:0;
+
+* {
+    margin: 0;
 }
-body{
+
+body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
 }
- 
-  h1,h2,h3,h4,h5{
+
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-family: 'Marcellus', serif;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,81 +40,118 @@ nav{
     font-size: 1.3em;
     padding: 1rem;
 }
-.item{
+
+.item {
     padding: 1rem;
-    }
-    nav a{
-        color: var(--blanco);
-        text-decoration: none;
-    }
-    .logo img{
-        height: 3rem;
-    }
-    #features{
-        background: url(../img/index/bg-features.png);
-        color: white;
-        padding-top: 1rem;
-    }
+}
 
-    .features-title{
-        background-color: rgba(0,0,0,0.35);
-        text-align: center;
-        padding: 0.5rem;
-        font-size: 1.5em;
-    }
+nav a {
+    color: var(--blanco);
+    text-decoration: none;
+}
 
-    .features-description{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .feature{
-        width: 25%;
-        min-width: 180px;
-        max-width: 230px;
-        margin: 0.8rem;
-        padding: 1rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border-radius: 5px;
-    }
-     
-    .feature i{
-        font-size: 2.2em;
-        margin-bottom: 1.5rem;
-    }
+.logo img {
+    height: 3rem;
+}
 
-    .feature-blue{
-        background-color: #00325eae;
-    }
-     
-    .feature-black{
-        background-color: rgba(0,0,0,0.59);
-    }
-img{
-   display: flex;
-justify-content: center;
-height: -1%;
-width: 100%;
-}    
+#features {
+    background: url(../img/bg-features.png);
+    color: white;
+    padding-top: 1rem;
+}
 
-.pa{
+.features-title {
+    background-color: rgba(0, 0, 0, 0.35);
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 2em;
+}
+
+.features-description {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.feature {
+    width: 30%;
+    height: 130px;
+    min-width: 220px;
+    max-width: 150px;
+    margin: 5.5rem;
+    margin-bottom: 8rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    margin-top: 4rem;
-    margin-left: 10rem;
-    margin-right: 60rem;
-    margin-bottom: 4rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 5px;
+    font-family: Roboto;
     font-size: 20px;
 }
 
-.im2{
+.feature i {
+    font-size: 2.2em;
+    margin-bottom: 1.5rem;
+}
+
+.feature-blue {
+    background-color: #00325eae;
+}
+
+.feature-black {
+    background-color: rgba(0, 0, 0, 0.59);
+}
+
+#img {
+    display: flex;
+    align-items: flex-end;
+    background: url(../img/slide1.jpg);
+    color: white;
+    padding-top: 1rem;
+    width: 100%;
+    height: 770px;
+    padding-top: 1rem;
+}
+
+
+.titulo {
+    background-color: rgba(0, 0, 0, 0.35);
+    text-align: left;
+    padding: 0.5rem;
+    font-size: 2.2em;
+   
+
+
+
+}
+
+.pa {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+    margin-left: 18rem;
+    margin-right: 57rem;
+    margin-bottom: 4rem;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+.im2 {
     display: flex;
     flex-direction: column-reverse;
+    width: 30%;
+    margin-left: 55rem;
+    margin-top: -14rem;
+
 }
-    
+
+.ubi {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    font-family: Marcellus;
+    font-size: 30px;
+
+}
