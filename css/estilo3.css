@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html {
+	font-size: 16px;
+    font-family: "Marcellus";
+}
+
+body {
+	background-image: url(file:///C:/Users/Joretof/Desktop/Taller1JS/img/juan-pablo-ahumada-O4Tveb12H1c-unsplash.jpg);
+	background-repeat: no-repeat;
+}
+.im{
+	margin-left: -26rem;
+	margin-top: -5rem;
+	width: 80rem;
+
+
+
+
+}
+.container {
+
+	max-width: 800px;
+	height: 45rem;
+	background-color: #EFEFEF;
+	margin: 5rem auto;
+
+	margin-left: 45rem;
+	margin-top: 12rem;
+
+	
+}
+
+
+
+.form__top h2 {
+	font-family: "Marcellus" ;
+	color: #000;
+	font-size: 48px;
+	text-align: center;
+	margin-top: -45rem;
+
+}
+
+
+
+.form__reg {
+	padding: 18rem;
+	display: flex;
+	flex-direction: column;
+	margin-left: -14rem;
+	margin-right: 9rem;
+	margin-top: -20rem;
+}
+.form__reg2 {
+	padding: 18rem;
+	display: flex;
+	flex-direction: column;
+	margin-left: 9rem;
+	margin-right: -14rem;
+	margin-top: -63.2rem;
+}
+
+.input, .btn__submit, .btn__reset{
+	background-color: #EFEFEF;
+	padding: .5rem;
+	margin: .5rem 0;
+
+	
+	transition: all .5s;
+}
+.i {
+    font-size: 3em;
+    margin-bottom: 1.5rem;
+
+
+}
+
+.input:focus {
+	border-bottom: solid #F39B53 .2rem;
+}
+
+.btn__submit {
+	width: 15%;
+	border-bottom: none;
+	color: white;
+	margin-left:-10rem;
+}
+.Boton{
+	margin-left:-7.9rem;
+	margin-top: -1.5rem;
+}
+.btn__reset {
+	width: 80%;
+	border-bottom: none;
+	color: white;
+	margin-top: 1rem;
+	margin-left:-8.5rem;
+}
+.btn__reset {
+	background-color: black;
+}
+
+.btn__submit:hover {
+	background-color: #4C9ED9;
+}
+
+.btn__reset:hover{
+	background-color: #FA9535;
+}
