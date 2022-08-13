@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+
+  background: url(file:///C:/Users/Joretof/Desktop/Taller1JS/img/christopher-jolly-GqbU78bdJFM-unsplash.jpg) no-repeat center top;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+
+
+}
+
+.login-box {
+  width: 800px;
+  height: 800px;
+  background-image: url(file:///C:/Users/Joretof/Desktop/Taller1JS/img/login.jpeg);
+  background-size: 65%;
+  background-repeat: no-repeat;
+
+  top: 65%;
+  left: 55%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+
+.login-box .avatar {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  position: absolute;
+  top: 130px;
+  left: calc(33% - 50px);
+}
+
+.login-box label {
+
+  padding: 0;
+  font-weight: bold;
+  display: block;
+  margin-left: 3em;
+  font-size: 20px;
+  color: #fff;
+}
+
+.login-box input {
+  width: 40%;
+  margin-bottom: 20px;
+  height: 2.1em;
+  margin-left: 5em;
+  margin-top: 2.2%;
+
+}
+
+
+
+.login-box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #1565C0;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 3.8em;
+  margin-top: 1%;
+
+
+}
+
+.login-box input[type="submit"]:hover {
+  cursor: pointer;
+  background: #fff;
+  color: #000;
+}
+
+
+
+p {
+  color: #fff;
+  margin-left: 4em;
+}
+
+a {
+  color: #000;
+  margin-left: 1em;
+  text-decoration: none;
+}
+
+.nota1 {
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  z-index: -3;
+  margin-left: -1em;
+  margin-top: -4em;
+
+}
+
+.form {
+  margin-top: 19%;
+}
+@media screen and (max-width:320px){
+
+  .login-box {
+    width: 400px;
+    height: 800px;
+    background-image: url(file:///C:/Users/Joretof/Desktop/Taller1JS/img/login.jpeg);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    color: #fff;
+    top: 70%;
+    left: 14.6em;
+    position: absolute;
+    transform: translate(-53%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+  }
+  .login-box .avatar {
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 3rem;
+    left: calc(42% - 50px);
+  }
+  
+  .login-box label {
+  
+    padding: 0;
+    font-weight: bold;
+    display: block;
+    margin-left: 3em;
+    font-size: 10px;
+    color: #fff;
+  }
+  
+  .login-box input {
+    width: 35%;
+    margin-bottom: 20px;
+    height: 0.8em;
+    margin-left: 2.5em;
+    margin-top: -8%;
+  
+  }
+  
+  
+  
+  .login-box input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 20px;
+    background: #1565C0;
+    color: #fff;
+    font-size: 10px;
+    margin-left: 3.5em;
+    margin-top: -3.5%;
+  
+  
+  }
+  
+  .login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #fff;
+    color: #000;
+  }
+  
+  
+  .login-box a:hover {
+    color: #fff;
+  }
+  
+  p {
+    color: #fff;
+    margin-left: 2.1em;
+    font-size: 8px;
+    margin-top: -0.1rem;
+  }
+  
+  a {
+    color: #000;
+    margin-left: 1em;
+    text-decoration: none;
+  }
+  
+  .nota1 {
+
+    position: absolute;
+   width: 10px;
+    margin-left: -1.8em;
+    margin-top: -4.4em;
+  
+  }
+  
+  .form {
+    margin-top: 5%;
+  }
+}
