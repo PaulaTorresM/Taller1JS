@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+	margin: 0;
+	background-image: url(file:///C:/Users/Joretof/Desktop/Taller1JS/img/erol-ahmed-mfEeaOfacTQ-unsplash.jpg);
+	background-repeat: no-repeat;
+	font-family: "Roboto";
+	font-size: 15px;
+    font-family: 'Marcellus';
+}
+
+.logo {
+	z-index: 3;
+	margin-top: -27rem;
+	margin-left: 2rem;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 19%;
+	background-color: #434343;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	margin-top: 0.5rem;
+}
+
+.corot {
+	color: #fff;
+	font-family: 'Marcellus';
+	margin-left: 11rem;
+	margin-top: -42rem;
+    font-size: 15px;
+}
+.corot h2 {
+	color: #fff;
+	font-family: 'Marcellus';
+	margin-left: 5rem;
+	margin-top: -38rem;
+    font-size: 15px;
+}
+
+li a {
+	display: block;
+	color: #fff;
+	padding: 8px 16px;
+	text-decoration: none;
+	font-size: 18px;
+	text-align: center;
+	margin-top: -2.1rem;
+}
+
+.cerrar i {
+	margin-top: 35rem;
+	margin-left: 11rem;
+	font-size: 25px;
+}
+
+.cerrar a {
+	font-size: 18px;
+	color: #EFEFEF;
+	margin-left: 14.8rem;
+	text-decoration: none;
+}
+
+   
+    .pero{
+        width: 30%;
+        margin-left: 48rem;
+        margin-top: -13.1rem;
+        margin-bottom: 2rem;
+    }
+    .potato{
+        width: 20%;
+        margin-left: 25rem;
+        margin-top: -8.4rem;
+        margin-bottom: 7rem;
+    }
+
+
+
+
+li a:hover {
+	background-color: #555;
+	color: white;
+}
+
+ul i {
+	font-size: 38px;
+	color: #fff;
+	margin-top: 8%;
+	margin-left: 2rem;
+}
+
+
+
+.container {
+	display: grid;
+	grid-template-columns: 250px 50px;
+	grid-template-rows: 900px 55px;
+	background-color: #fff;
+	margin-left: 28rem;
+}
+
+
+
+.form__top h2 {
+	font-family: "Marcellus";
+	color: #000;
+	font-size: 48px;
+	text-align: center;
+	margin-top: 0..5rem;
+    margin-bottom:8rem;
+	margin-left: 30rem;
+
+}
+
+.card1 , .card2 ,.card3 , .card4 ,.card5 ,.card6, .card7{
+    background-color: #fff;
+}
+.primer{
+	display: grid;
+	grid-template-columns: repeat(3, 2fr);
+	grid-gap: 100px;
+	grid-auto-rows: minmax(200px, auto);
+	margin-top: 10rem;
+	margin-left: -5rem;
+  
+}
+.second{
+
+	display: grid;
+	grid-template-columns: repeat(3, 2fr);
+	grid-gap: 100px;
+	grid-auto-rows: minmax(100px, auto);
+	margin-top: -21rem;
+	margin-left: -5rem;
+}
+
+@media screen and (max-width:320px){
+    .logo {
+        z-index: 3;
+        margin-top: -27rem;
+        margin-left: 2rem;
+        display: none;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 10%;
+        background-color: #434343;
+        position: fixed;
+        height: 82%;
+        overflow: auto;
+        margin-top: 0.1rem;
+    }
+    
+    .corot {
+      display: none;
+      
+    }
+    .corot h2 {
+        
+        display: none;
+    }
+
+    
+    li a {
+     
+        display: none;
+    }
+    
+    .cerrar i {
+        margin-top: 35rem;
+        margin-left: 1rem;
+        font-size: 28px;
+    }
+    
+    .cerrar a {
+        
+        display: none;
+    }
+    
+       
+         
+    .pero{
+		display: none;
+    }
+    .potato{
+   display: none;
+    }
+    
+    
+    
+    li a:hover {
+        background-color: #555;
+        color: white;
+    }
+    
+    ul i {
+        font-size: 20px;
+        color: #fff;
+        margin-top: 8%;
+        margin-left: 1rem;
+    }
+
+	
+.container {
+	display: grid;
+	grid-template-columns: 400px 50px;
+	grid-template-rows: 900px 55px;
+	background-color: #fff;
+	margin-left: 8rem;
+	position: absolute;
+}
+
+
+
+.form__top h2 {
+	font-family: "Marcellus";
+	color: #000;
+	font-size: 48px;
+	text-align: center;
+	margin-top: 0..5rem;
+    margin-bottom:5rem;
+	margin-left: -7rem;
+
+}
+
+.card1 , .card2 ,.card3 , .card4 ,.card5 ,.card6, .card7{
+    background-color: #fff;
+}
+.primer{
+	display: grid;
+	grid-template-columns: repeat(2, 2fr);
+	grid-gap: 100px;
+	grid-auto-rows: minmax(200px, auto);
+	margin-top: 6rem;
+	margin-left: -23rem;
+  
+}
+.second{
+
+	display: grid;
+	grid-template-columns: repeat(3, 2fr);
+	grid-gap: 100px;
+	grid-auto-rows: minmax(100px, auto);
+	margin-top: -24rem;
+	margin-left: -23rem;
+}
+.card3, .card7, .card2, .card5{
+	display: none;
+}
+}

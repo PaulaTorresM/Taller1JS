@@ -2,16 +2,10 @@
 
 body {
 	margin: 0;
-	background-image: url(file:///C:/Users/Joretof/Desktop/Taller1JS/img/erol-ahmed-mfEeaOfacTQ-unsplash.jpg);
+	background-image: url(file:///C:/Users/Joretof/Desktop/Taller1JS/img/alexandra-gorn-JIUjvqe2ZHg-unsplash.jpg);
 	background-repeat: no-repeat;
 	font-family: "Roboto";
 	font-size: 15px;
-}
-
-.logo {
-	z-index: 3;
-	margin-top: -32rem;
-	margin-left: 2rem;
 }
 
 ul {
@@ -26,25 +20,33 @@ ul {
 	margin-top: -7rem;
 }
 
-.corot {
-	color: #fff;
-	font-family: 'Marcellus';
-	margin-left: 10rem;
-	margin-top: -45rem;
-}
 
 li a {
 	display: block;
 	color: #fff;
 	padding: 8px 16px;
 	text-decoration: none;
-	font-size: 23px;
+	font-size: 19px;
 	text-align: center;
 	margin-top: -2.1rem;
 }
 
+
+
+li a:hover {
+	background-color: #555;
+	color: white;
+}
+
+ul i {
+	font-size: 30px;
+	color: #fff;
+	margin-top: 8%;
+	margin-left: 2rem;
+}
+
 .cerrar i {
-	margin-top: 43rem;
+	margin-top: 22.5rem;
 	margin-left: 11rem;
 	font-size: 25px;
 }
@@ -58,21 +60,6 @@ li a {
 
 
 }
-
-
-li a:hover {
-	background-color: #555;
-	color: white;
-}
-
-ul i {
-	font-size: 38px;
-	color: #fff;
-	margin-top: 8%;
-	margin-left: 2rem;
-}
-
-
 
 .container {
 
@@ -97,6 +84,22 @@ ul i {
 	margin-top: -43rem;
 
 }
+.casona{
+    width: 15%;
+}
+.pero{
+    width: 20%;
+    margin-left: 15rem;
+    margin-top: -4.4rem;
+}
+.input_pop{
+	width: 180%;
+	height: 80px;
+	background-color: #EFEFEF;
+	padding: .5rem;
+	margin: .5rem 0;
+}
+
 
 
 
@@ -104,22 +107,21 @@ ul i {
 	padding: 18rem;
 	display: flex;
 	flex-direction: column;
-	margin-left: 2rem;
-	margin-right: 10rem;
-	margin-top: -40rem;
+	margin-left: -15rem;
+	margin-right: 15rem;
+	margin-top: -20rem;
 }
 
 .form__reg2 {
 	padding: 18rem;
 	display: flex;
 	flex-direction: column;
-	margin-left: 28rem;
-	margin-right: -15rem;
-	margin-top: -64.6rem;
+	margin-left: 22rem;
+	margin-right: -12rem;
+	margin-top: -60.8rem;
 }
 
 .input,
-.btn__submit,
 .btn__reset {
 	background-color: #EFEFEF;
 	padding: .5rem;
@@ -128,101 +130,50 @@ ul i {
 
 	transition: all .5s;
 }
-
-.img {
-	width: 20%;
+.sec{
+	display: flex;
+    justify-content: space-around;
+	font-size: 3em;
+	margin-top: -5rem;
+   
 }
 
 
-.im {
-	margin-left: 3rem;
-	margin-top: 1rem;
-	width: 60rem;
 
 
-
-
-}
-
-.im2 {
-	margin-left: 3.2rem;
-	margin-top: -1rem;
-	width: 60rem;
-
-
-
-
-}
 
 .input:focus {
 	border-bottom: solid #F39B53 .2rem;
 }
 
-.btn__submit {
-	width: 15%;
-	border-bottom: none;
-	color: white;
-	margin-left: -10rem;
-}
 
-.Boton {
-	margin-left: -7.9rem;
-	margin-top: -1.5rem;
-}
 
 .btn__reset {
-	width: 80%;
+	width: 30%;
 	border-bottom: none;
 	color: white;
-	margin-top: -1rem;
-	margin-left: -24.5rem;
+	margin-top: 2rem;
+	margin-left: 24.5rem;
 	font-size: 20px;
 }
 
-.btn__reset1 {
-	width: 80%;
-	border-bottom: none;
-	color: white;
-	margin-top: 1rem;
-	margin-left: 1rem;
-	font-size: 20px;
-}
 
-.btn__reset2 {
-	width: 10%;
-	height: 10%;
-	border-bottom: none;
-	color: white;
-	margin-top: 1rem;
-	margin-left: 5rem;
-	font-size: 20px;
-}
 
-.btn__reset,
-.btn__reset1,
-.btn__reset2 {
+
+
+.btn__reset {
 	background-color: black;
 }
 
-.btn__submit:hover {
-	background-color: #4C9ED9;
-}
+
 
 .btn__reset:hover {
 	background-color: #FA9535;
 }
 
-.btn__reset1:hover {
-	background-color: #FA9535;
-}
 @media screen and (max-width:320px){
 
-	.logo {
-		z-index: 3;
-		margin-top: -32rem;
-		margin-left: 2rem;
-	}
-	
+
 	ul {
 		list-style-type: none;
 		margin: 0;
@@ -230,17 +181,12 @@ ul i {
 		width: 8%;
 		background-color: #434343;
 		position: fixed;
-		height: 39%;
+		height: 59%;
 		overflow: auto;
 		margin-top: -2rem;
 	}
 	
-	.corot {
-		color: #fff;
-		font-family: 'Marcellus';
-		margin-left: 10rem;
-		margin-top: -45rem;
-	}
+
 	
 	li a {
 		display: none;
@@ -253,9 +199,9 @@ ul i {
 	}
 	
 	.cerrar i {
-		margin-top: 43rem;
-		margin-left: 1rem;
-		font-size: 45px;
+		margin-top: 15rem;
+		margin-left: 0.6rem;
+		font-size: 28px;
 	}
 	
 	.cerrar a {
@@ -276,10 +222,10 @@ ul i {
 	}
 	
 	ul i {
-		font-size: 38px;
+		font-size: 28px;
 		color: #fff;
 		margin-top: 8%;
-		margin-left: 1rem;
+		margin-left: 0.6rem;
 	}
 	
 	
@@ -288,7 +234,7 @@ ul i {
 	
 		max-width: 1100px;
 		height: 67rem;
-		width: 410px;
+		width: 370px;
 		background-color: #EFEFEF;
 		margin: 5rem auto;
 	
@@ -299,7 +245,6 @@ ul i {
 	}
 	
 	
-	
 	.form__top h2 {
 		font-family: "Marcellus";
 		color: #000;
@@ -307,6 +252,26 @@ ul i {
 		text-align: center;
 		margin-top: -43rem;
 	
+	}
+	.casona{
+		width: 10%;
+		margin-bottom: 7rem;
+	}
+	.pero{
+		width: 10%;
+		margin-left: 0.2rem;
+		margin-top: -5.4rem;
+	}
+	.input_pop{
+		width: 190px;
+		height: 80px;
+		background-color: #EFEFEF;
+		padding: .5rem;
+		margin: .5rem 0;
+	}
+	
+	.input{
+		width: 80px;
 	}
 	
 	
@@ -316,23 +281,20 @@ ul i {
 		display: flex;
 		flex-direction: column;
 		margin-left: -15rem;
-		margin-right: 10rem;
-		margin-top: -39rem;
-		width: 33%;
+		margin-right: 15rem;
+		margin-top: -20rem;
 	}
 	
 	.form__reg2 {
 		padding: 18rem;
 		display: flex;
 		flex-direction: column;
-		margin-left: -2.5rem;
-		margin-right: -15rem;
-		margin-top: -82.6rem;
-		width: 33%;
+		margin-left: -3rem;
+		margin-right: -12rem;
+		margin-top: -72.3rem;
 	}
 	
 	.input,
-	.btn__submit,
 	.btn__reset {
 		background-color: #EFEFEF;
 		padding: .5rem;
@@ -341,91 +303,45 @@ ul i {
 	
 		transition: all .5s;
 	}
+	.sec{
+		display: flex;
 	
-	.img {
-		width: 10%;
-	}
-	
-	
-	.im {
-		margin-left: 2rem;
-		margin-top: 1rem;
-		width: 10rem;
-	
-	
-	
+		justify-content: space-around;
+		font-size: 2em;
+		margin-top: 3rem;
 	
 	}
 	
-	.im2 {
-		margin-left: 2.2rem;
-		margin-top: -1rem;
-		width: 45rem;
 	
 	
 	
-	
-	}
 	
 	.input:focus {
 		border-bottom: solid #F39B53 .2rem;
 	}
 	
-	.btn__submit {
-		width: 15%;
-		border-bottom: none;
-		color: white;
-		margin-left: -10rem;
-	}
 	
-	.Boton {
-		margin-left: -7.9rem;
-		margin-top: -1.5rem;
-	}
 	
 	.btn__reset {
-		display: none;
-		width: 80%;
+		width: 30%;
 		border-bottom: none;
 		color: white;
-		margin-top: -1rem;
-		margin-left: -24.5rem;
+		margin-top: 2rem;
+		margin-left: 8.5rem;
 		font-size: 20px;
 	}
 	
-	.btn__reset1 {
-		width: 80%;
-		border-bottom: none;
-		color: white;
-		margin-top: 1rem;
-		margin-left: 0.5rem;
-		font-size: 15px;
-	}
 	
-	.btn__reset2 {
-		width: 20%;
-		border-bottom: none;
-		color: white;
-		margin-top: 20rem;
-		margin-left: 16rem;
-		font-size: 15px;
-		height: 20px;
-	}
-	.btn__reset,
-	.btn__reset1,
-	.btn__reset2 {
+	
+	
+	
+	.btn__reset {
 		background-color: black;
 	}
 	
-	.btn__submit:hover {
-		background-color: #4C9ED9;
-	}
+	
 	
 	.btn__reset:hover {
-		background-color: #FA9535;
-	}
-	
-	.btn__reset1:hover {
 		background-color: #FA9535;
 	}
 }

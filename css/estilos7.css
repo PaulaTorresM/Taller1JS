@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+	margin: 0;
+	background-image: url(file:///C:/Users/Joretof/Desktop/Taller1JS/img/juan-pablo-ahumada-O4Tveb12H1c-unsplash.jpg);
+	background-repeat: no-repeat;
+	font-family: "Roboto";
+	font-size: 15px;
+    font-family: 'Marcellus';
+}
+.logo {
+	z-index: 3;
+	margin-top: -27rem;
+	margin-left: 2rem;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 19%;
+	background-color: #434343;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	margin-top: -16rem;
+}
+
+.corot {
+	color: #fff;
+	font-family: 'Marcellus';
+	margin-left: 11rem;
+	margin-top: -42rem;
+    font-size: 15px;
+}
+.corot h2 {
+	color: #fff;
+	font-family: 'Marcellus';
+	margin-left: 5rem;
+	margin-top: -38rem;
+    font-size: 15px;
+}
+
+li a {
+	display: block;
+	color: #fff;
+	padding: 8px 16px;
+	text-decoration: none;
+	font-size: 18px;
+	text-align: center;
+	margin-top: -2.1rem;
+}
+
+.cerrar i {
+	margin-top: 35rem;
+	margin-left: 11rem;
+	font-size: 25px;
+}
+
+.cerrar a {
+	font-size: 18px;
+	color: #EFEFEF;
+	margin-left: 14.8rem;
+	text-decoration: none;
+}
+
+   
+    .pero{
+        width: 20%;
+        margin-left: 38rem;
+        margin-top: -10.1rem;
+        margin-bottom: 2rem;
+    }
+    .potato{
+        width: 20%;
+        margin-left: 18rem;
+        margin-top: -7.4rem;
+        margin-bottom: 7rem;
+    }
+
+
+
+
+li a:hover {
+	background-color: #555;
+	color: white;
+}
+
+ul i {
+	font-size: 38px;
+	color: #fff;
+	margin-top: 8%;
+	margin-left: 2rem;
+}
+
+
+.container {
+
+	max-width: 475px;
+	height: 23rem;
+
+	background-color: #EFEFEF;
+	margin: 5rem auto;
+	margin-left: 27rem;
+	margin-top: 2rem;
+
+
+}
+
+.card1 , .card2 ,.card3 , .card4 ,.card5 ,.card6, .card7{
+    background-color: #fff;
+}
+
+
+.form__reg2 {
+    padding: 18rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12rem;
+    margin-right: 52rem;
+    margin-top: -43.3rem;
+    font-size: 20px;
+}
+
+.input{
+    margin-left: 8rem;
+    margin-top: -2.8rem;
+    width: 80%;
+}
+
+nav{
+    background-color: #1565c0da;
+    text-align: center;
+    margin-top: 16rem;
+    width: 20%;
+    margin-left: 30rem;
+    
+}
+.primer{
+    display: flex;
+flex-direction: row;
+    justify-content: space-around;
+    margin-left: 50rem;
+    margin-top: -46rem;
+    height: 20rem;
+
+   
+}
+.second{
+    display: flex;
+flex-direction: row;
+    justify-content: space-around;
+    margin-top: -23rem;
+    height: 20rem;
+    margin-left: 15rem;
+
+   
+}
+.btn__reset {
+    width: 50%;
+    border-bottom: none;
+    color: white;
+    margin-top: 0.5rem;
+    margin-left: 6.5rem;
+    font-size: 20px;
+}
+
+
+.btn__reset {
+    background-color: black;
+}
+
+
+
+.btn__reset:hover {
+    background-color: #FA9535;
+}
+
+
+@media screen and (max-width:320px){
+    .logo {
+        z-index: 3;
+        margin-top: -27rem;
+        margin-left: 2rem;
+        display: none;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 15%;
+        background-color: #434343;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+        margin-top: -3rem;
+    }
+    
+    .corot {
+      display: none;
+      
+    }
+    .corot h2 {
+        
+        display: none;
+    }
+
+    
+    li a {
+     
+        display: none;
+    }
+    
+    .cerrar i {
+        margin-top: 15rem;
+        margin-left: 1rem;
+        font-size: 28px;
+    }
+    
+    .cerrar a {
+        
+        display: none;
+    }
+    
+       
+        .pero{
+            display: none;
+        }
+        .potato{
+            display: none;
+        }
+    
+    
+    
+    
+    li a:hover {
+        background-color: #555;
+        color: white;
+    }
+    
+    ul i {
+        font-size: 20px;
+        color: #fff;
+        margin-top: 8%;
+        margin-left: 1rem;
+    }
+    
+.container {
+
+	max-width: 455px;
+	height: 18rem;
+width: 280px;
+	background-color: #EFEFEF;
+	margin: 5rem auto;
+	margin-left: 6rem;
+	margin-top: 2rem;
+
+
+}
+    .card1 , .card2 ,.card3 , .card4 ,.card5 ,.card6, .card7{
+        background-color: #fff;
+    }
+    
+    
+    .form__reg2 {
+        padding: 18rem;
+        display: flex;
+        flex-direction: column;
+        margin-left: -9rem;
+        margin-right: 52rem;
+        margin-top: -38.3rem;
+        font-size: 15px;
+    }
+    
+    .input{
+        margin-left: 5rem;
+        margin-top: -2.8rem;
+        width: 100px;
+    }
+    
+    nav{
+        background-color: #1565c0da;
+        text-align: center;
+        margin-top: 2rem;
+        width: 50%;
+        margin-left: 9rem;
+        
+    }
+    .primer{
+    display: none;
+       
+    }
+    .second{
+        display: flex;
+    flex-direction: row;
+        justify-content: space-around;
+        margin-top: -14rem;
+        height: 20rem;
+        margin-left: 9rem;
+    
+       
+    }
+    .btn__reset {
+        width: 70px;
+        border-bottom: none;
+        color: white;
+        margin-top: 0.5rem;
+        margin-left: 3.5rem;
+        font-size: 15px;
+    }
+    
+    
+    .btn__reset {
+        background-color: black;
+    }
+    
+    
+    
+    .btn__reset:hover {
+        background-color: #FA9535;
+    }
+    
+}

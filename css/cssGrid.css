@@ -918,52 +918,5 @@ img {
     
 }
 
-/*Resolución tablet*/
 
-
-
-/*Resolución notebooks*/
-@media screen and (min-width: 768px) {
-
-    nav {
-        display: flex;
-        flex-direction: row;
-        width: 101.7%;
-        justify-content: space-between;
-        background-color: var(--negro2);
-    }
-
-    .logo {
-        padding: 1rem;
-    }
-
-    .logo img {
-        width: 100%;
-        max-width: 180px;
-    }
-
-    .menu {
-        background-color: var(--negro2);
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .menu-hr {
-        display: none;
-    }
-
-    .navbar-button {
-        background-color: var(--azuloscuro);
-    }
-
-    .logo i {
-        display: none;
-    }
-
-    .menu {
-        background-color: var(--negro2);
-
-    }
-}
-
+   

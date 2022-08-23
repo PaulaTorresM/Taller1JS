@@ -6,18 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/reset.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="file:///C:/Users/Joretof/Desktop/Taller1JS/css/estilo3.css">
     <title>Formulario</title>
 </head>
 
 <body>
-  
+
     <div class="container">
         <div class="im">
             <img src="file:///C:/Users/Joretof/Desktop/Taller1JS/img/registro.PNG" alt="">
         </div>
         <div class="form__top">
-           
+
             <h2>Registrate</h2>
         </div>
         <br>
@@ -64,16 +65,52 @@
             Foto
             <input class="input" type="email" placeholder="Seleccionar Archivo" required>
             Confirmar Contraseña
-            <input class="input" type="date" required>
-<br>
-        
-                <input class="btn__submit" type="checkbox">
-                <label class="Boton">Acepto Terminos y Condiciones
-                </label>
-                <BR>
-                <BR>
-                <input class="btn__reset" type="reset" value="LIMPIAR">
-       
+            <input class="input" type="text" required>
+            <br>
+
+            <input type="checkbox" onclick="document.getElementById('id01').style.display='block'"
+                class="btn__submit"><label class="Boton">Acepta terminos y condiciones</label>
+
+            <div id="id01" class="w3-modal">
+                <div class="w3-modal-content">
+                    <header class="w3-teal">
+                    
+                        <h2>Modal Header</h2>
+                    </header>
+                    <div class="w3-container">
+                        <p>Estos Términos del Servicio reflejan la forma
+                            de trabajar de Google como empresa, las
+                            leyes por las que nos regimos y determinados
+                            aspectos que siempre hemos creído que son
+                            ciertos. Por ello, estos Términos del Servicio
+                            ayudan a definir la relación que tiene Google
+                            contigo cuando interactúas con nuestros
+                            servicios. Por ejemplo, estos términos
+                            incluyen las siguientes secciones:
+                            <br>
+                            <br>
+
+                            
+                            Qué puedes esperar de nosotros, donde se
+                            describe cómo proporcionamos y
+                            desarrollamos nuestros servicios.
+                            
+                            Lo que esperamos de ti, donde se establecen
+                            ciertas reglas para utilizar nuestros servicios.</p>
+                       
+                            <span onclick="document.getElementById('id01').style.display='none'"
+                            class="w3-button w3-display-topright">aceptar
+                        </span>
+                         
+                    </div>
+              
+                </div>
+            </div>
+            </label>
+            <BR>
+            <BR>
+            <input class="btn__reset" type="reset" value="Registrar">
+
         </form>
     </div>
 

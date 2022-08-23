@@ -58,7 +58,7 @@ body {
 	flex-direction: column;
 	margin-left: 9rem;
 	margin-right: -14rem;
-	margin-top: -63.2rem;
+	margin-top: -66.8rem;
 }
 
 .input, .btn__submit, .btn__reset{
@@ -94,7 +94,7 @@ body {
 	width: 80%;
 	border-bottom: none;
 	color: white;
-	margin-top: 1rem;
+	margin-top: -2rem;
 	margin-left:-8.5rem;
 }
 .btn__reset {
@@ -107,4 +107,126 @@ body {
 
 .btn__reset:hover{
 	background-color: #FA9535;
+}
+.w3-modal  h2 {
+	background-color: #000046;
+	
+}
+.w3-display-topright{
+	background-color: #000046;
+	color: #ffff;
+}
+@media screen and (max-width:320px){
+
+	.im{
+		margin-left: -26rem;
+		margin-top: -5rem;
+		width: 80rem;
+		display: none;
+	
+	
+	
+	
+	}
+	.container {
+	
+		max-width: 800px;
+		height: 70rem;
+		width: 305px;
+		background-color: #EFEFEF;
+		margin: 5rem auto;
+	
+		margin-left: 0.1rem;
+		margin-top: 48rem;
+	
+		
+	}
+	
+	
+	
+	.form__top h2 {
+		font-family: "Marcellus" ;
+		color: #000;
+		font-size: 42px;
+		text-align: center;
+		margin-top: -45rem;
+		margin-left: -1rem;
+	
+	}
+	
+
+	
+	.form__reg {
+		padding: 18rem;
+		display: flex;
+		flex-direction: column;
+		margin-left: -15rem;
+		margin-right: 1rem;
+		margin-top: -21rem;
+		width: 260%;
+	}
+	.form__reg2 {
+		padding: 18rem;
+		display: flex;
+		flex-direction: column;
+		margin-left: -15rem;
+		margin-right: -14rem;
+		margin-top: -35.2rem;
+		width: 260%;
+	}
+	
+	.input, .btn__submit, .btn__reset{
+		background-color: #EFEFEF;
+		padding: .5rem;
+		margin: .5rem 0;
+		height: 28px;
+		
+	
+		
+		transition: all .5s;
+	}
+	.i {
+		font-size: 3em;
+		margin-bottom: 1.5rem;
+	
+	
+	}
+
+	
+	.input:focus {
+		border-bottom: solid #F39B53 .2rem;
+	}
+	
+	.btn__submit {
+		width: 10%;
+		border-bottom: none;
+		color: white;
+		margin-left:-1rem;
+	}
+	.Boton{
+		margin-left:2rem;
+		margin-top: -2.5rem;
+	}
+	.btn__reset {
+		width: 80%;
+		border-bottom: none;
+		color: white;
+		margin-top: -1.5rem;
+		margin-left:1.2rem;
+	}
+	.btn__reset {
+		background-color: black;
+	}
+	
+	.btn__submit:hover {
+		background-color: #4C9ED9;
+	}
+	
+	.btn__reset:hover{
+		background-color: #FA9535;
+	}
+
+	.w3-modal{
+		width: 55%;
+	}
 }
