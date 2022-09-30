@@ -7,6 +7,7 @@ body {
 
 
 }
+@media screen and (min-width:1024px){
 
 .login-box {
   width: 800px;
@@ -14,9 +15,8 @@ body {
   background-image: url(file:///C:/Users/Joretof/Desktop/Taller1JS/img/login.jpeg);
   background-size: 65%;
   background-repeat: no-repeat;
-
   top: 65%;
-  left: 55%;
+  left: 57%;
   position: absolute;
   transform: translate(-50%, -50%);
   box-sizing: border-box;
@@ -98,8 +98,15 @@ a {
 .form {
   margin-top: 19%;
 }
-@media screen and (max-width:320px){
+}
+@media screen and (min-width:320px) and (max-width:1023px){
+body{
+  background: url(file:///C:/Users/Joretof/Desktop/Taller1JS/img/christopher-jolly-GqbU78bdJFM-unsplash.jpg) no-repeat center top;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
 
+
+}
   .login-box {
     width: 400px;
     height: 800px;
@@ -107,12 +114,14 @@ a {
     background-size: 65%;
     background-repeat: no-repeat;
     color: #fff;
-    top: 70%;
-    left: 14.6em;
+    top: 30rem;
+    left: 16.6em;
     position: absolute;
     transform: translate(-53%, -50%);
     box-sizing: border-box;
     padding: 70px 30px;
+    position: absolute;
+
   }
   .login-box .avatar {
     width: 30px;

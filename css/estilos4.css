@@ -8,6 +8,7 @@ body {
 	font-size: 15px;
 }
 
+@media screen and (min-width:1024px){
 .logo {
 	z-index: 3;
 	margin-top: -32rem;
@@ -215,7 +216,8 @@ ul i {
 .btn__reset1:hover {
 	background-color: #FA9535;
 }
-@media screen and (max-width:320px){
+}
+@media screen and (min-width:320px) and (max-width:1023px){
 
 	.logo {
 		z-index: 3;
