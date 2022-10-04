@@ -101,8 +101,8 @@ a {
 }
 @media screen and (min-width:320px) and (max-width:1023px){
 body{
-  background: url(file:///C:/Users/Joretof/Desktop/Taller1JS/img/christopher-jolly-GqbU78bdJFM-unsplash.jpg) no-repeat center top;
-  background-size: cover;
+  background: url(../img/christopher-jolly-GqbU78bdJFM-unsplash.jpg ) no-repeat;
+
   font-family: 'Roboto', sans-serif;
 
 
@@ -110,17 +110,18 @@ body{
   .login-box {
     width: 400px;
     height: 800px;
-    background-image: url(file:///C:/Users/Joretof/Desktop/Taller1JS/img/login.jpeg);
+    background-image: url(../img/login.jpeg);
     background-size: 65%;
     background-repeat: no-repeat;
     color: #fff;
-    top: 30rem;
-    left: 16.6em;
+    top: 50rem;
+    left: 25.6em;
     position: absolute;
     transform: translate(-53%, -50%);
     box-sizing: border-box;
     padding: 70px 30px;
-    position: absolute;
+
+   
 
   }
   .login-box .avatar {
